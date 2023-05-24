@@ -1,0 +1,66 @@
+/* == ESTILOS FONDO DEL LOGIN == */
+/* Contenedor del login */
+.page-login-container {
+    position: relative;
+    width: 100%;
+    height: 115vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+
+/* Fondo del login */
+.page-login-container-background{
+    background-size: cover;
+    display: block;
+    height: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+/* Efecto sombra del login */
+.page-login-container-shadow{
+    width: 100%;
+    height: 115vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #00000073;
+    z-index: 0;
+    box-shadow: 0px 0px 75px -8px rgba(0,0,0,1) inset;
+    -webkit-box-shadow: 0px 0px 75px 20px rgba(0,0,0,1) inset;
+    -moz-box-shadow: 0px 0px 75px -8px rgba(0,0,0,1) inset;
+}
+
+/* == ESTILOS LOGO LOGIN == */
+.page-login-container-logo{
+    position: absolute;
+    width: 9%;
+    margin-left: 3%;
+    padding: 20px 0 0 0;
+}
+.page-login-container-logo img {
+    width: 100%;
+    height: auto;
+}
+
+/* == ESTILOS FORMULARIO LOGIN == */
+.page-login-container-form {
+    width: 25%;
+    height: 60%;
+    background-color: #000000a8;
+    border-radius: 5px;
+    margin: 100px auto;
+    padding: 45px 70px;
+    box-sizing: border-box;
+}
+
+.page-login-container-form h1 {
+    padding: 0;
+    margin: 0;
+    color: #FFF
+}

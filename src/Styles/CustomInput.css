@@ -1,0 +1,8 @@
+.custom-input {
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+    --webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+}
